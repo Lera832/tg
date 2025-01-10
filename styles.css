@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    color: #333;
+}
+#movies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.movie {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background: white;
+    width: 200px;
+    text-align: left;
+}
+button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
